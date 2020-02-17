@@ -30,7 +30,7 @@ public class Calc {
 
         driver.manage().window().maximize();
 
-        driver.findElement(By.cssSelector("[id=\"cookieconsentallowal\"]")).click();
+        driver.findElement(By.cssSelector("[id=\"cookieconsentallowall\"]")).click();
         driver.findElement(By.cssSelector("[id=\"input\"]")).sendKeys("35");
         driver.findElement(By.cssSelector("[id=\"BtnMult\"]")).click();
         driver.findElement(By.cssSelector("[id=\"input\"]")).sendKeys("999");
